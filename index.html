@@ -4,20 +4,419 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-
+    <title>geo-website</title>
 </head>
 <body>
-    
-    <!-- Html code here -->
+    <h1 class="visually-hidden">geo-website</h1>
+    <header class="header">
+        <div class="header__top container">
+            <h6>Gold <span style="color: green;">243.49$</span></h6>
+            <h6 style="margin-left: 60px;">Copper <span style="color: red;">243.49$</span></h6>
+            <h6 style="margin-left: 60px;">Gore <span style="color: green;">243.49$</span></h6>
+            <h6 style="margin-left: 60px;">Nickel <span style="color: red;">243.49$</span></h6>
+            <h6 style="margin-left: 60px;">Iron <span style="color: green;">243.49$</span></h6>
+            <h6 style="margin-left: 60px;">Lithium <span style="color: red;">243.49$</span></h6>
+        </div>
+    </header>
+
+    <nav class="navbar container">
+        <a class="navbar__logo" href="index.html">
+            <img src="./Images/navbar/logo.svg" alt="Geo website logo">
+        </a>
+        <ul class="navbar__list">
+            <li class="navbar__list__item">
+                <a href="index.html">Главная</a>
+            </li>
+            <li class="navbar__list__item">
+                <a href="#about">O компании</a>     
+            </li>
+            <li class="navbar__list__item">
+                <a href="#services">Услуги</a>
+            </li>
+            <li class="navbar__list__item">
+                <a href="#news">Новости</a>
+            </li>
+            <li class="navbar__list__item">
+                <a href="#contact">Контакты</a>
+            </li>
+        </ul>
+
+        <div class="navbar__contact">
+            <div class="navbar__email">
+                <p>info@moperating.kz
+                    Заказать звонок</p>
+            </div>
+            <div class="navbar__phone">
+                <p>+7 (7172) 24 72 80
+                    Заказать звонок</p>
+            </div>
+            <div class="navbar__selection">
+                <img class="navbar__selection__search" src="./Images/navbar/search.svg" alt="Search icon">
+                <img class="navbar__selection__russia" src="./Images/navbar/Russia.svg" alt="Rounded Russia icon">
+                <select class="navbar__selection__select">
+                    <option value="0">Русский</option>
+                    <option value="1">En</option>
+                    <option value="2">Uz</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- main section started -->
+    <main class="container">
+        <section class="hero">
+            <div class="hero__left">
+                <h2>Оказание полного спектра услуг 
+                в области
+                недропользования</h2>
+                <p>МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями 
+                и небольшими компаниями, недавно появившимися на рынке.</p>
+                <div class="hero__left__block">
+                    <div class="hero__left__blocks">
+                        <p>Наличие опытных
+                        специалистов</p>
+                    </div>
+                    <div class="hero__left__blocks">
+                        <p>Современные методы
+                            в геологоразведке</p>
+                    </div>
+                    <div style="margin-left: 13px;" class="hero__left__blocks">
+                        <p>Налаженная сеть партнеров</p>
+                    </div>
+                    <div class="hero__left__blocks">
+                        <p>Постоянный 
+                            контроль качества</p>
+                    </div>
+                </div>
+                <a class="hero__left__button" href="#">
+                    Оформить заявку
+                </a>
+            </div>
+
+            <div class="hero__right">
+                <iframe 
+                width="533" 
+                height="338" 
+                src="https://www.youtube.com/embed/RdFkC6Gtb5A" 
+                title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+        <!-- About section started -->
+        <section class="about" id="about">
+            <div class="about__box">
+                <div class="about__left">
+                    <img src="./Images/navbar/crystal2.svg" alt="crystal jpg">
+                </div>
+                
+                <div class="about__right">
+                    <h2 class="about__title">О компании</h2>
+                    <p class="about__description">
+                    Мы хотим создать историю и стать полезными для нашей страны. Именно так мы думали когда основали нашу компанию Minerals Operating. Даже стало интересно что у нас получится, но мы уже сейчас проделали огромную работу, вышли на международный уровень. Каждый из нас работает над своей стезей, основываясь на навыках и опыте в нашей сфере. Не зря говорят, что большая история или идея создаются сидя за чашкой чая, в принципе так же было и у нас. У каждого  есть своя история. <br>
+                    <br> 
+                    Самое интересное то, что наша история началась тогда, когда мы даже об этом не знали ведь мы были знакомы давно и никто не думал, что знакомство бывают не напрасными. И в один момент когда у одного родилась идея мы просто послушали, но как говорил И. Гёте «Можно признать идею полезной, но не уметь ею пользоваться». И при каждой очередной встрече мы действительно увидели потенциал и на сколько ресурсным может быть данный проект. Мы поверили в него, в друг друга и самое важное на сколько полезен он может быть для нашей страны. Приятно было осознавать, что ничто не делает человека столь склонным к рискованным предприятиям, как ощущение невесомости действий в нашей голове.</p>
+                </div>
+            </div>
+        </section>
+        <!-- About section ended -->
+
+
+        <!-- Cards section started -->
+        <section>
+            <div class="cards">
+            <div class="cards__card">
+                <img  
+                src="./Images/navbar/cards-image1.jpg" 
+                alt="men's Image"
+                class="cards__img">
+                <h5 class="cards__title">Ким Александр</h5>
+                <p class="cards__description">Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на...</p>
+            </div>
+
+            <div style="margin-left: 38px; margin-right: 38px;" class="cards__card">
+                <img  
+                src="./Images/navbar/cards-image2.jpg" 
+                alt="men's Image"
+                class="cards__img">
+                <h5 class="cards__title">Ким Александр</h5>
+                <p class="cards__description">Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на...</p>
+            </div>
+
+            <div class="cards__card">
+                <img  
+                src="./Images/navbar/cards-image3.jpg" 
+                alt="men's Image"
+                class="cards__img">
+                <h5 class="cards__title">Ким Александр</h5>
+                <p class="cards__description">Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на...</p>
+            </div>
+        </div>
+    </section>
+    <!-- Cards section ended -->
+
+    <!-- Services section started -->
+    <h2 class="services__title">Принцип нашей работы</h2>
+    <section class="services" id="services">
+
+        <div class="services__contents">
+            
+            <div class="services__left">
+                <img class="services__left__img" src="./Images/navbar/services-1.jpg" alt="services image">
+            </div>
+
+            <div class="services__right">
+                <h4 class="services__info">Буровые работы</h4>
+                <p class="services__description">
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на нормах и принципах Английского общего права.
+                    МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно появившимися на рынке.
+                </p>
+                <a class="services__btn" href="#">Подробнее об услуге</a>
+            </div>
+        </div>
+
+        <div class="services__contents services__contents__2">
+            <div class="services__right">
+                <h4 class="services__info services__info__2">Буровые работы</h4>
+                <p class="services__description services__description__2">
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на нормах и принципах Английского общего права.
+                    МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно появившимися на рынке.
+                </p>
+                <a class="services__btn services__btn__2" href="#">Подробнее об услуге</a>
+            </div>
+
+            <div class="services__left">
+                <img width="680px" height="457px" style="background-size: contain; margin-left: -90px;" class="services__left__img" src="./Images/navbar/services-2.jpg" alt="services image">
+            </div>
+        </div>       
+        
+        <div class="services__contents">
+            <div class="services__left">
+                <img class="services__left__img" src="./Images/navbar/services-3.jpg" alt="services image">
+            </div>
+
+            <div class="services__right">
+                <h4 class="services__info">Буровые работы</h4>
+                <p class="services__description">
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на нормах и принципах Английского общего права.
+                    МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно появившимися на рынке.
+                </p>
+                <a class="services__btn" href="#">Подробнее об услуге</a>
+            </div>
+        </div>
+
+        <div class="services__contents services__contents__2">
+            <div class="services__right">
+                <h4 class="services__info services__info__2">Буровые работы</h4>
+                <p class="services__description services__description__2">
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на нормах и принципах Английского общего права.
+                    МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно появившимися на рынке.
+                </p>
+                <a class="services__btn services__btn__2" href="#">Подробнее об услуге</a>
+            </div>
+
+            <div class="services__left">
+                <img width="680px" height="457px" style="background-size: contain; margin-left: -90px;" class="services__left__img" src="./Images/navbar/services-2.jpg" alt="services image">
+            </div>
+        </div> 
+
+        <div class="services__contents">
+            
+            <div class="services__left">
+                <img class="services__left__img" src="./Images/navbar/services-1.jpg" alt="services image">
+            </div>
+
+            <div class="services__right">
+                <h4 class="services__info">Буровые работы</h4>
+                <p class="services__description">
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована в Международном Финансовом Центре «Астана» (МФЦА) и осуществляет деятельность, основанную на нормах и принципах Английского общего права.
+                    МФЦА – это уникальный центр, который использует лучшие практики и подходы международных финансовых центров и сотрудничает с крупными корпорациями и небольшими компаниями, недавно появившимися на рынке.
+                </p>
+                <a class="services__btn" href="#">Подробнее об услуге</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ended -->
+
+    <!-- News section started -->
+    <section id="news">
+        <h4 class="news__title">ПОЧЕМУ MINERALS OPERATING?</h4>
+        <div class="news">
+            <div class="news__cards">
+                <div class="news__card">
+                    <div class="news__card__content">
+                        <h6 class="news__card__info">Клиентоориентированность</h6>
+                        <p class="news__card__description">Мы понимаем как тяжело начинать как делать помогаем новичкам</p>
+                    </div>
+                </div>
+
+                <div style="margin-left: 35px; margin-right: 35px;" class="news__card news__card__2">
+                    <div class="news__card__content">
+                        <h6 class="news__card__info">Клиентоориентированность</h6>
+                        <p class="news__card__description">Мы понимаем как тяжело начинать как делать помогаем новичкам</p>
+                    </div>
+                </div>
+
+
+                <div class="news__card news__card__3">
+                    <div class="news__card__content">
+                        <h6 class="news__card__info">Клиентоориентированность</h6>
+                        <p class="news__card__description">Мы понимаем как тяжело начинать как делать помогаем новичкам</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="news__card news__card__4" style="margin-top: 35px;">
+                    <div class="news__card__content">
+                        <h6 class="news__card__info">Клиентоориентированность</h6>
+                        <p class="news__card__description">Мы понимаем как тяжело начинать как делать помогаем новичкам</p>
+                    </div>
+                </div>
+
+                <div class="news__card news__card__5" style="margin-left: 35px; margin-top: 35px; margin-right: 35px;">
+                    <div class="news__card__content">
+                        <h6 class="news__card__info">Клиентоориентированность</h6>
+                        <p class="news__card__description">Мы понимаем как тяжело начинать как делать помогаем новичкам</p>
+                    </div>
+                </div>
+
+                <div class="news__card__6" style="margin-top: 35px;">
+                    <img src="./Images/navbar/mpa.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News section ended -->
+    </main>
+
+
+    <main>
+        <!-- Map section started -->
+        <section id="location" style="margin-bottom: 135px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.369063360781!2d69.16053786855609!3d41.263643331352284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89c0d41fc3bf%3A0x2562194d2f2fef0e!2z0KfQuNC70LDQvdC30LDRgNGB0LrQuNC5INGA0LDQudC-0L0sINCi0LDRiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1647544627332!5m2!1sru!2s" 
+            width="100%" height="663px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <!-- Map section ended -->
+
+
+        <section id="contact">
+            <div class="contact container">
+                <div class="contact__left">
+                    <h4 class="contact__title">Остались вопросы ?</h4>
+                    <p class="contact__description">
+                        Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). Мinerals Operating зарегистрирована <br>
+                        <br>
+                        Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся\
+                    </p>
+                    <p class="contact__description">
+                        Напишите нам email.ru@mail.ru <br>
+                        или звоните +7 (700) 555-55-66
+                    </p>
+                </div>
+                <div class="contact__right">
+                    <form method="get" class="contact__form">
+                        <div>
+                            <input class="contact__form__name" type="text" placeholder="Ваше имя">
+                            <input class="contact__form__name" type="text" placeholder="Ваш телефон">
+                        </div>
+                        <div>
+                            <input class="contact__form__sms" type="text" placeholder="Сообщение">
+                        </div>
+                        <div class="contact__form__block">
+                            <a class="contact__form__btn" href="#">Оформить заявку</a>
+                            <p class="contact__form__description">При нажатии кнопки “отправить”, вы соглашаетесь
+                                на обработку данных</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__info container">
+            <div class="footer__descriptions">
+                <img class="footer__logo" src="./Images/navbar/footer-logo.svg" alt="Footer logo">
+                <p>
+                    Мinerals Operating – это молодая компания, которая оказывает услуги в сфере недропользования на территории Казахстана. Мы одна из первых компаний являющихся лицензированным консультантом в сфере минеральных ресурсов (лицензия №AFSA-A-LA-2020-0004). 
+                </p>
+            </div>
+
+            <div class="footer__list">
+                <ul class="footer__items">
+                    <li class="footer__item">
+                        <a href="" style="opacity: 1;">Основное</a>
+                    </li>
+                    <li class="footer__item">      
+                        <a href="">Главная</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="">О нас</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="">Услуги</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="">Вакансии</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer__list__2">
+                <ul class="footer__items">
+                    <li class="footer__item">
+                        <a href="" style="opacity: 1;">Навигация</a>
+                    </li>
+                    <li class="footer__item">      
+                        <a href="">Контакты</a>
+                    </li>
+                    <li class="footer__item">       
+                        <a href="">Помощь</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="">Политика</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="">Обратная связь</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer__list__3">
+                <p class="footer__list__title">Контакты</p>
+                <p class="footer__list__description">РК, г. Нур-Султан, Проспект Мангилик Ел, 55/21, этаж 1, Блок C4.2, офис 164</p>
+                <div class="footer__list__small">
+                    <img src="./Images/navbar/numpad-small.svg" alt="small-numpad">
+                    <p class="footer__phone">+7 (7172) 24 72 80</p>
+                </div>
+                <div class="footer__icons">
+                    <a href="https://www.instagram.com/">
+                        <img src="./Images/navbar/instagram.svg" alt="instagram svg">
+                    </a>
+                    <a style="margin: 0px 20px;" href="https://vk.com/">
+                        <img src="./Images/navbar/vk.svg" alt="vk image">
+                    </a>
+                    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiQgcri6NL2AhVhR5EFHexpAeAYABAAGgJscg&ae=2&ohost=www.google.com&cid=CAESbeD2z1JskgFM8FCheyi6beyPmM94m4Zsk655xwT62CpOU0QbSKj0MqPd-EufARwxHuZLY84zLl8kV7Vy0ZWGzDk_k-NeY1twrXLKT8fFw5GQal7NaF42RESuiknmhacsWRLwUqhlkMlx_AWaVsA&sig=AOD64_2CC2G2H2YswaCq1c9axsJbevqL6A&q&adurl&ved=2ahUKEwjSn8Hi6NL2AhVPs4sKHcITA3EQ0Qx6BAgDEAE">
+                        <img src="./Images/navbar/facebook.svg" alt="facebook icon svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
-<script>
-// write js code here
-    
-</script>
 </html>

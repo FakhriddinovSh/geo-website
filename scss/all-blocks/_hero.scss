@@ -1,0 +1,87 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 179px;
+    margin-bottom: 387px;
+    &__left{
+        width: 60%;
+    }
+    &__left__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 38px;
+    }
+    &__right{
+        width: 40%;
+        & > iframe{
+            margin-left: 74px;
+        }
+    }
+    &__left__button{
+        padding: 16px 31px;
+        background: #2797FF;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        &:hover{
+            outline: 1;
+            color: black;
+        }
+    }
+    &__left > h2{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    &__left > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        padding-top: 24px;
+    }
+    &__left__blocks{
+        width: 220px;
+        margin-top: 38px;
+        & > p{
+            position: relative;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 20px;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../../Images/navbar/Rectangle.svg);
+                background-repeat: no-repeat;
+                width: 10px;
+                height: 30px;
+                left: 0;
+                top: 0px;
+            }
+        }
+    }
+}

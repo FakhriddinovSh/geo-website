@@ -1,0 +1,93 @@
+.services{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    &__left{
+        width: 40%;
+    }
+    &__right{
+        width: 60%;
+    }
+    &__contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contents{
+        margin-top: 50px;
+    }
+    &__title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-bottom: 40px;
+    }
+    &__info{
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/navbar/services-after.svg);
+            background-repeat: no-repeat;
+            width: 80px;
+            height: 50px;
+            top: 10px;
+            left: 220px;
+        }
+    }
+    &__info__2{
+        text-align: left;
+        margin-left: 14px;
+        &::after{
+            left: -14px;
+        }
+    }
+    &__description{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        width: 80%;
+        margin-left: 220px;
+        margin-bottom: 60px;
+    }
+    &__description__2{
+        margin-left: 0px;
+    }
+    &__btn{
+        text-decoration: none;
+        padding: 16px 20px;
+        text-align: center;
+        margin-left: 220px;
+        border: 1px solid #2797FF; 
+        background: #2797FF;
+        border-radius: 10px;;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    &__btn__2{
+        margin-left: 0px;
+    }
+}
